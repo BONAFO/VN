@@ -1,0 +1,1 @@
+npm --prefix ./server/ run start
