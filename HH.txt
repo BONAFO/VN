@@ -1,0 +1,31 @@
+APP / LOCAL 
+
+
+local
+
+
+-build
+      -build
+	+homepage
+	+build
+	+crear media[]
+	+move to dist
+
+online
+- build 
+	+homepage
+	+build
+	+move to dist
+- build dist
+
+
+both
+
+start -
+	+ modificar app  (descomentar db)[] **
+        + crear dbs  (leer manifiest.db y luego crear)[validate_db.js] **
+        + modificar app  (comentar db)[] **
+        + build
+        + actualizar dbs [update_db.js] 
+	+ delete build []
+        + start front
